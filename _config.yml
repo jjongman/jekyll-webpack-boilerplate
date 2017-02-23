@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 destination: dist
 source: src
+port: 4000
 
 # Build settings
 markdown: kramdown
