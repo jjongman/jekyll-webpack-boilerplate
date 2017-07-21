@@ -1,0 +1,1 @@
+docker run --rm --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll-webpack /bin/bash -c "webpack --watch & jekyll serve"
